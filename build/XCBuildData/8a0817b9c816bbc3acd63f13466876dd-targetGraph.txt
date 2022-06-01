@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+campusBooster in campusBooster, no dependencies
+campusBoosterTests in campusBooster, depends on:
+campusBooster in campusBooster (explicit)
+campusBoosterUITests in campusBooster, depends on:
+campusBooster in campusBooster (explicit)

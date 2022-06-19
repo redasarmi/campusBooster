@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90059B6E285F2BA7003BA187 /* ModuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90059B6D285F2BA7003BA187 /* ModuleModel.swift */; };
+		90059B70285F2FF6003BA187 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90059B6F285F2FF6003BA187 /* ProfileModel.swift */; };
 		903C249B284795A60011368F /* campusBoosterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C249A284795A60011368F /* campusBoosterApp.swift */; };
 		903C249D284795A60011368F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C249C284795A60011368F /* ContentView.swift */; };
 		903C249F284795A80011368F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903C249E284795A80011368F /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		903C24AC284795A80011368F /* campusBoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C24AB284795A80011368F /* campusBoosterTests.swift */; };
 		903C24B6284795A80011368F /* campusBoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C24B5284795A80011368F /* campusBoosterUITests.swift */; };
 		903C24B8284795A80011368F /* campusBoosterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C24B7284795A80011368F /* campusBoosterUITestsLaunchTests.swift */; };
+		903C24CB284798B50011368F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C24CA284798B50011368F /* HomeView.swift */; };
+		903C24CD284798D30011368F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C24CC284798D30011368F /* SettingsView.swift */; };
+		90DBEA42285F323100B2113C /* students_marks.json in Resources */ = {isa = PBXBuildFile; fileRef = 90DBEA41285F323100B2113C /* students_marks.json */; };
+		90DBEA44285F323900B2113C /* supinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 90DBEA43285F323900B2113C /* supinfo.json */; };
+		90DBEA46285F3CD000B2113C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEA45285F3CD000B2113C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90059B6D285F2BA7003BA187 /* ModuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleModel.swift; sourceTree = "<group>"; };
+		90059B6F285F2FF6003BA187 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		903C2497284795A60011368F /* campusBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = campusBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903C249A284795A60011368F /* campusBoosterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campusBoosterApp.swift; sourceTree = "<group>"; };
 		903C249C284795A60011368F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,11 @@
 		903C24B1284795A80011368F /* campusBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = campusBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903C24B5284795A80011368F /* campusBoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campusBoosterUITests.swift; sourceTree = "<group>"; };
 		903C24B7284795A80011368F /* campusBoosterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campusBoosterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		903C24CA284798B50011368F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		903C24CC284798D30011368F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		90DBEA41285F323100B2113C /* students_marks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = students_marks.json; path = ../../../../../../../../../Downloads/students_marks.json; sourceTree = "<group>"; };
+		90DBEA43285F323900B2113C /* supinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = supinfo.json; path = ../../../../../../../../../Downloads/supinfo.json; sourceTree = "<group>"; };
+		90DBEA45285F3CD000B2113C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				903C249A284795A60011368F /* campusBoosterApp.swift */,
-				903C249C284795A60011368F /* ContentView.swift */,
-				903C249E284795A80011368F /* Assets.xcassets */,
+				903C24C9284796700011368F /* Models */,
+				903C24C8284796680011368F /* ViewModels */,
+				903C24C4284796300011368F /* Views */,
 				903C24A0284795A80011368F /* Preview Content */,
 			);
 			path = campusBooster;
@@ -125,6 +140,60 @@
 				903C24B7284795A80011368F /* campusBoosterUITestsLaunchTests.swift */,
 			);
 			path = campusBoosterUITests;
+			sourceTree = "<group>";
+		};
+		903C24C4284796300011368F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				903C24C7284796540011368F /* Components */,
+				903C24C62847964C0011368F /* Detail */,
+				903C24C52847963A0011368F /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		903C24C52847963A0011368F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				903C249C284795A60011368F /* ContentView.swift */,
+				903C24CA284798B50011368F /* HomeView.swift */,
+				903C24CC284798D30011368F /* SettingsView.swift */,
+				90DBEA45285F3CD000B2113C /* LoginView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		903C24C62847964C0011368F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		903C24C7284796540011368F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		903C24C8284796680011368F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		903C24C9284796700011368F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90DBEA43285F323900B2113C /* supinfo.json */,
+				90DBEA41285F323100B2113C /* students_marks.json */,
+				903C249E284795A80011368F /* Assets.xcassets */,
+				90059B6D285F2BA7003BA187 /* ModuleModel.swift */,
+				90059B6F285F2FF6003BA187 /* ProfileModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DBEA44285F323900B2113C /* supinfo.json in Resources */,
+				90DBEA42285F323100B2113C /* students_marks.json in Resources */,
 				903C24A2284795A80011368F /* Preview Assets.xcassets in Resources */,
 				903C249F284795A80011368F /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DBEA46285F3CD000B2113C /* LoginView.swift in Sources */,
+				903C24CB284798B50011368F /* HomeView.swift in Sources */,
+				903C24CD284798D30011368F /* SettingsView.swift in Sources */,
 				903C249D284795A60011368F /* ContentView.swift in Sources */,
+				90059B70285F2FF6003BA187 /* ProfileModel.swift in Sources */,
 				903C249B284795A60011368F /* campusBoosterApp.swift in Sources */,
+				90059B6E285F2BA7003BA187 /* ModuleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
